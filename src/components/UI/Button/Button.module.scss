@@ -9,16 +9,16 @@
 	font-weight: bold;
 	font-size: 12px;
 
-	:focus {
+	&:focus {
 		outline: none;
 	}
 
-	:active {
+	&:active {
 		box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3);
 		
 	}
 
-	:disabled {
+	&:disabled {
 		background: #ccc;
 		color: #000;
 		cursor: not-allowed;
